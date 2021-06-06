@@ -1,0 +1,15 @@
+{
+        "version": "0.2.0",
+        "configurations": [
+            
+            {
+                "type": "node",
+                "request": "launch",
+                "name": "Sample debug",
+                "program": "${workspaceRoot}/Sample.js",
+                "outFiles": [
+                    "${workspaceRoot}/out/**/*.js"
+                ]
+            }
+        ]
+    }
